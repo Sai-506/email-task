@@ -1,0 +1,48 @@
+.sidebar h2 {
+    margin-top: 0;
+  }
+  
+  .sidebar ul li {
+    margin: 10px 0;
+    cursor: pointer;
+  }
+
+  .sidebar {
+    width: 20%;
+    background-color: #f4f4f4;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  
+  .inbox {
+    width: 30%;
+    border-right: 1px solid #ddd;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow-y: scroll;
+  }
+  
+  .emailDetail {
+    flex-grow: 1;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow-y: scroll;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .subject {
+    flex-grow: 1;
+    margin-left: 10px;
+  }

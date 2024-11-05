@@ -1,0 +1,41 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: #0078d4;
+    color: white;
+    padding: 5px;
+      }
+  
+  .logo {
+    height: 30px;
+    margin-right: 20px;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 15px;
+    flex-grow: 1;
+    float:right;
+    align-items: end;
+    justify-content: center;
+    padding: 20px;
+    justify-content: right;
+    align-items: end;
+
+  }
+  
+  .nav-item {
+    cursor: pointer;
+  }
+  
+  .user-icon {
+    display: flex;
+    align-items: center;
+  }
+  
+  .user-icon img {
+    height: 30px;
+    border-radius: 50%;
+    
+    padding: 10px;
+  }
